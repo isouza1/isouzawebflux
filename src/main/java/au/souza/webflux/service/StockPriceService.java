@@ -21,7 +21,6 @@ public class StockPriceService {
     //  return Flux.interval(Duration.ofSeconds(1))
     //  .take(10) // Take only 10 values before completing the Flux  ... just like RXJS take
     //  .map(interval -> new StockPrice(symbol, randomPrice()));
-
   }
 
   private double randomPrice() {
